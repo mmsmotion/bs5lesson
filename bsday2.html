@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+<body>
+
+<div class="m-5 w-75">
+    <div id="aa" class="carousel  slide" data-bs-ride="carousel">
+
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#aa" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#aa" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#aa" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#aa" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="bg-primary p-5">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, corporis debitis dignissimos, ducimus ex fugit maiores molestiae nisi placeat quod rerum voluptate voluptates. Assumenda dolores facilis illum molestias obcaecati ratione.
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-danger p-5">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, corporis debitis dignissimos, ducimus ex fugit maiores molestiae nisi placeat quod rerum voluptate voluptates. Assumenda dolores facilis illum molestias obcaecati ratione.
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-info p-5">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, corporis debitis dignissimos, ducimus ex fugit maiores molestiae nisi placeat quod rerum voluptate voluptates. Assumenda dolores facilis illum molestias obcaecati ratione.
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-dark p-5 text-white">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, corporis debitis dignissimos, ducimus ex fugit maiores molestiae nisi placeat quod rerum voluptate voluptates. Assumenda dolores facilis illum molestias obcaecati ratione.
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#aa" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#aa" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
+    <div class="my-5">
+        <button class="btn btn-outline-primary" data-bs-target="#aa" data-bs-slide="prev">
+            <i class="fas fa-angle-double-left fa-4x"></i>
+        </button>
+
+        <button class="btn btn-outline-primary" data-bs-target="#aa" data-bs-slide="next">
+            <i class="fas fa-angle-double-right fa-4x"></i>
+        </button>
+    </div>
+
+
+</div>
+
+<hr>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bb">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="bb" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Hein Htet Zan</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda, consectetur debitis delectus dicta expedita illum iste laudantium natus odit perferendis quas quis sint sunt tempore vero vitae voluptate voluptatem.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda, consectetur debitis delectus dicta expedita illum iste laudantium natus odit perferendis quas quis sint sunt tempore vero vitae voluptate voluptatem.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda, consectetur debitis delectus dicta expedita illum iste laudantium natus odit perferendis quas quis sint sunt tempore vero vitae voluptate voluptatem.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda, consectetur debitis delectus dicta expedita illum iste laudantium natus odit perferendis quas quis sint sunt tempore vero vitae voluptate voluptatem.
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<ul class="nav nav-pills justify-content-center">
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled">Disabled</a>
+    </li>
+</ul>
+
+
+<hr>
+
+<div class="m-5">
+
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="cc-tab" data-bs-toggle="tab" data-bs-target="#cc" type="button" role="tab" aria-controls="contact" aria-selected="false">CC</button>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consectetur consequatur distinctio earum harum in inventore, itaque magnam molestias nam natus quae suscipit voluptas? Accusantium maxime optio praesentium quo ratione!
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consectetur consequatur distinctio earum harum in inventore, itaque magnam molestias nam natus quae suscipit voluptas? Accusantium maxime optio praesentium quo ratione!
+
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consectetur consequatur distinctio earum harum in inventore, itaque magnam molestias nam natus quae suscipit voluptas? Accusantium maxime optio praesentium quo ratione!
+
+        </div>
+        <div class="tab-pane fade" id="cc" role="tabpanel" aria-labelledby="contact-tab">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consectetur consequatur distinctio earum harum in inventore, itaque magnam molestias nam natus quae suscipit voluptas? Accusantium maxime optio praesentium quo ratione!
+
+        </div>
+    </div>
+</div>
+
+
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

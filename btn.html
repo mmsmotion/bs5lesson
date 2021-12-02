@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <style>
+        body{
+            height: 3000px;
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="m-5">
+    <button class="btn btn-primary ">My btn</button>
+    <button class="btn btn-primary active">My btn</button>
+    <button class="btn btn-secondary btn-sm">My btn</button>
+    <button class="btn btn-danger btn-lg">My btn</button>
+    <button class="btn btn-light">My btn</button>
+    <button class="btn btn-outline-warning">Outline btn</button>
+    <button class="btn btn-outline-danger active">Outline btn</button>
+    <button class="btn btn-outline-dark">Outline btn</button>
+    <button class="btn btn-outline-info">Outline btn</button>
+</div>
+
+<hr>
+
+<div class="m-5">
+    <div class="btn-group">
+        <button class="btn btn-primary ">My btn</button>
+        <button class="btn btn-primary ">My btn</button>
+        <button class="btn btn-primary active">My btn</button>
+        <button class="btn btn-primary ">My btn</button>
+    </div>
+
+</div>
+
+<div class="m-5">
+    <button class="btn btn-primary px-4 rounded-pill">My btn</button>
+    <button class="btn btn-outline-primary px-4 rounded-pill ">My btn</button>
+    <button class="btn btn-primary shadow mx-5">My btn</button>
+    <button class="btn btn-primary p-4">My btn</button>
+</div>
+
+<hr>
+
+<div class="m-5">
+
+    <p class="alert alert-primary">
+        <i class="fas fa-home"></i>
+        San Kyi Tar Par
+    </p>
+
+    <p class="alert alert-secondary">
+        <i class="fas fa-car"></i>
+        San Kyi Tar Par
+    </p>
+
+
+    <p class="alert alert-warning d-inline-block rounded-pill  py-2" role="alert">
+        San Kyi Tar Par
+        <button class="btn btn-danger rounded-circle ms-4" data-bs-dismiss="alert" aria-label="Close">
+            <i class="fas fa-times"></i>
+        </button>
+    </p>
+
+    <p class="alert alert-warning d-inline-block rounded-pill px-4" role="alert">
+        San Kyi Tar Par
+        <button class="btn btn-warning rounded-circle" data-bs-dismiss="alert" aria-label="Close">
+            <i class="fas fa-times"></i>
+        </button>
+    </p>
+
+    <p class="alert alert-warning d-inline-block rounded-pill px-4" role="alert">
+        San Kyi Tar Par
+        <button class="btn btn-warning" data-bs-dismiss="alert" aria-label="Close">
+            <i class="fas fa-times"></i>
+        </button>
+    </p>
+
+
+    <p class="alert alert-danger">
+        San Kyi Tar Par
+    </p>
+
+
+</div>
+
+<hr>
+
+<div class="m-5">
+
+    <h1>Hein Htet Zan <span class="badge bg-primary">New</span> </h1>
+    <button class="btn btn-outline-primary">
+        Click Me <span class="badge bg-dark">5</span>
+    </button>
+
+</div>
+
+<hr>
+
+<div class="m-5">
+    <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-danger spinner-border-sm" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-danger spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-warning" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+
+    <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+<!--        <span class="visually-hidden">Loading...</span>-->
+        loading
+    </button>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="spinner-grow text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+
+    <div class="spinner-grow spinner-grow-sm text-danger " role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+
+
+    <div class="spinner-grow text-dark" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+
+    <div class="spinner-grow text-info" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>
+
+</div>
+
+<hr>
+
+<div class="m-5">
+
+    <div class="progress mb-4">
+        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    <div class="progress mb-4">
+        <div class="progress-bar bg-dark" role="progressbar" style="width: 30%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+
+    <div class="progress mb-4">
+        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 20%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 57%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+
+
+</div>
+
+<hr>
+
+<div class="m-5">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item active"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination pagination-lg">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
+
+
+</div>
+
+<hr>
+
+<div class="m-5">
+
+    <ul class="list-group">
+        <li class="list-group-item">Apple</li>
+        <li class="list-group-item d-flex justify-content-between">Orange <span class="badge bg-primary">3</span></li>
+        <li class="list-group-item active">Mango</li>
+        <li class="list-group-item">Banana</li>
+        <li class="list-group-item">Apple</li>
+    </ul>
+
+    <br>
+    <br>
+
+    <div class="list-group">
+        <a href="https://google.com" class="list-group-item">Google</a>
+        <a href="#" class="list-group-item">One</a>
+        <a href="#" class="list-group-item">One</a>
+        <a href="#" class="list-group-item">One</a>
+        <a href="#" class="list-group-item">One</a>
+    </div>
+
+</div>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    let w = 10;
+    let x = setInterval(()=>{
+        w += 1;
+        document.querySelectorAll(".progress-bar")[0].style.width = w+"%"
+        if(w === 50){
+            clearInterval(x);
+        }
+        console.log(w);
+    },100)
+</script>
+</body>
+</html>
